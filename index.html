@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo-ken-Pô</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <img src="/gif.gif" alt="gif">
+        <h1>Jo-Ken-Pô</h1>
+
+        <div class="buttons">
+            <button class="pedra" onclick="playHuman('pedra')">&#x1F44A;</button>
+            <button class="papel" onclick="playHuman('papel')">&#x270B;</button>
+            <button class="tesoura" onclick="playHuman('tesoura')">&#x270C;</button>
+        </div>
+
+        <h3 class="result"></h3>
+
+        <p class="score">Sua Pontuação: <span id="my-score">0</span></p>
+        <p class="machine">Pontuação da Alexa: <span id="score-machine">0</span></p>
+    </div>
+</body>
+
+</html>
